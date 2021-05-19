@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    margin:0;
+}
+.castle img{
+    width:100%;
+    position: fixed;
+}
+.castle{
+    position:relative;
+    display:flex;
+    justify-content: center;
+}
+.heading{
+    position:absolute;
+    z-index: 4;
+    background: #000;
+    color:#fff;
+    font-family:Lato;
+    padding:1rem 3rem;
+    text-align:center;
+}
